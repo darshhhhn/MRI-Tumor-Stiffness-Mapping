@@ -9,6 +9,7 @@ This project leverages a custom deep Convolutional Neural Network (CNN) and Expl
 * **Tissue Stiffness Mapping:** Translates the AI's diagnosis into physical biomechanical properties to inform robotic surgical force requirements.
 * **Explainable AI (Grad-CAM):** Generates medical heatmaps and contour rings to visually highlight the exact pixels the neural network used to make its diagnosis, ensuring clinical transparency.
 * **Clinical Deployment Mode:** Includes an interactive, drop-in folder script that allows medical professionals to test raw, unseen MRI images and instantly generate a side-by-side diagnostic visual.
+* ![Grad-CAM Tumor Highlight](custom_pit.png)
 
 ## Project Structure
 * `train_1.py`: Initial training script establishing the baseline CNN architecture and data preprocessing pipeline.
